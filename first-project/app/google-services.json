@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "408012536194",
+    "firebase_url": "https://fir-students-dbc25-default-rtdb.firebaseio.com",
+    "project_id": "fir-students-dbc25",
+    "storage_bucket": "fir-students-dbc25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408012536194:android:fb3c409a389d1e1bd0379b",
+        "android_client_info": {
+          "package_name": "com.example.firebasevideo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEhe0V6i8CHRFMgwEWYbQixTQT1Pfzh5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
