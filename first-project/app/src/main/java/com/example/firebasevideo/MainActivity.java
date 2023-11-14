@@ -29,9 +29,20 @@ public class MainActivity extends AppCompatActivity {
                         .setQuery(FirebaseDatabase.getInstance().getReference().child("students"), MainModel.class)
                         .build();
 
-//        Log.d("options", options.toString());
+        Log.d("options", options.toString());
 
         mainAdapter = new MainAdapter(options);
         recyclerView.setAdapter(mainAdapter);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        mainAdapter.startListening();
+    }
+    @Override
+    protected void onStop() {
+        super.onStop();
+        mainAdapter.stopListening();
     }
 }
