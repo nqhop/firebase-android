@@ -16,7 +16,6 @@
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@mipmap/ic_launcher"
-            android:layout_centerVertical="true"
             app:civ_border_width="2dp"
             app:civ_border_color="#000"/>
         <TextView
@@ -50,6 +49,27 @@
             android:layout_toRightOf="@+id/img1"
             android:layout_below="@+id/coursetext"
             android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emailtext"
+            android:gravity="center">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:textAllCaps="false"
+                android:layout_marginRight="20dp"
+                android:id="@+id/btnEdit"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textAllCaps="false"
+                android:layout_marginRight="20dp"
+                android:id="@+id/btnDelete"/>
+        </LinearLayout>
     </RelativeLayout>
 
 </androidx.cardview.widget.CardView>
